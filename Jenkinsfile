@@ -77,7 +77,7 @@ pipeline{
             steps {
                 script {
                     rtServer {
-                        id: 'Artifactory-1',
+                        id: 'jfrog',
                         url: 'http://192.168.32.77/artifactory',
                         // If you're using username and password:
                         //username: 'admin',
