@@ -77,7 +77,7 @@ pipeline{
             steps {
                 script {
                     rtUpload {
-                        serverId: 'jfrog',
+                        serverId: 'JBengo',
                         url: 'http://192.168.32.77/artifactory',
                         // If you're using username and password:
                         //username: 'user',
