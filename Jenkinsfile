@@ -76,8 +76,8 @@ pipeline{
             when { expression { params.action == 'create' } }
             steps {
                 script {
-                    rtServer {
-                        //serverId: 'jfrog',
+                    rtUpload {
+                        serverId: 'jfrog',
                         url: 'http://192.168.32.77/artifactory',
                         // If you're using username and password:
                         //username: 'user',
